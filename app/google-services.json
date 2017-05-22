@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "760724869373",
+    "firebase_url": "https://festive-freedom-166505.firebaseio.com",
+    "project_id": "festive-freedom-166505",
+    "storage_bucket": "festive-freedom-166505.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760724869373:android:03092b99cd117b29",
+        "android_client_info": {
+          "package_name": "proyectos.carosdrean.xyz.encuentralo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760724869373-d6lnt28pa2ulnmv90op9jo7jlaun67vn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "proyectos.carosdrean.xyz.encuentralo",
+            "certificate_hash": "39f6ff7ea5de8f0180ee0f4aa263444a8eb6a03a"
+          }
+        },
+        {
+          "client_id": "760724869373-1oitqk60avo1qgcerfhqnusoj0r1up98.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU6LAhGYZoHL7Lo7a1A6St8qQvQZixDkc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760724869373-1oitqk60avo1qgcerfhqnusoj0r1up98.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <CheckBox
+        android:id="@+id/chAccesorio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Accesorios" />
+    <CheckBox
+        android:id="@+id/chRestaurantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Restaurantes" />
+    <CheckBox
+        android:id="@+id/chAutos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Autos" />
+    <CheckBox
+        android:id="@+id/chRopas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Ropas" />
+    <CheckBox
+        android:id="@+id/chFerreterias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Ferreterias" />
+    <CheckBox
+        android:id="@+id/chHotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Hotel" />
+    <CheckBox
+        android:id="@+id/chSupermercado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Supermercado" />
+    <CheckBox
+        android:id="@+id/chZapaterias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Zapaterias" />
+    <CheckBox
+        android:id="@+id/chPanaderias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Panaderias" />
+
+</LinearLayout>

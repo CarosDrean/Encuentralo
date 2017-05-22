@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Encuentralo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="titulo_holder">Salud</string>
+    <string name="descripcioin_holder">Esta es un descripcion de prueba</string>
+    <string name="title_activity_detalle_categorias">DetalleCategorias</string>
+    <string name="title_activity_perfil__empresa">Perfil_Empresa</string>
+    <string name="title_activity_perfil_empresa">PerfilEmpresa</string>
+    <string name="registrar_nuevo_lugar">Agregar Servicio</string>
+    <string name="action_guardar">Guardar</string>
+
+    <string name="elige_categoria">Elige una categoria…</string>
+    <string name="action_select_ubicacion">Seleccinar</string>
+    <string name="action_buscar">Buscar</string>
+
+    <string-array name="lista_categorias">
+        <item>Accesorios</item>
+        <item>Restaurantes</item>
+        <item>Autos</item>
+        <item>Ropas</item>
+        <item>Ferreterias</item>
+        <item>Hotel</item>
+        <item>Supermercado</item>
+        <item>Zapaterias</item>
+        <item>Panaderias</item>
+    </string-array>
+    <string name="title_activity_detalles_servicios">DetallesServicios</string>
+    <string name="title_activity_detalles_categorias">DetallesCategorias</string>
+    <string name="title_activity_agregar_servicio">AgregarServicio</string>
+    <string name="not_log_in">No se puede Iniciar Sesion</string>
+    <string name="not_firebase_auth">No se puede autenticar con Firebase</string>
+</resources>

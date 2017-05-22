@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#454545"
+    android:fitsSystemWindows="true"
+    tools:context="proyectos.carosdrean.xyz.encuentralo.Login">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:id="@+id/fondoLogin"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:id="@+id/linear">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:src="@drawable/icono" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENCUENTRALO"
+            android:textColor="@android:color/background_light"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text='"Ahora Puedes Buscar Muchos Servicios Sin Caminar Mucho"'
+        android:textSize="12dp"
+        android:gravity="center"
+        android:id="@+id/lema"
+        android:textColor="@android:color/background_light"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lema"
+        android:layout_marginTop="40dp"
+        android:textSize="12dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:gravity="center"
+        android:id="@+id/tema"
+        android:textColor="@android:color/background_light"
+        android:text="Encuentralo en mas productivo si Inicias Sesion, servicios a tu disposicion desde una sola aplicacion para una busqueda mas precisa."
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/tema"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="40dp"
+        android:weightSum="5"
+        android:id="@+id/linearLayout2">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/bota" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/casa"/>
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/pan"/>
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/reno"/>
+
+    </LinearLayout>
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signInButton"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true">
+
+    </com.google.android.gms.common.SignInButton>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/progressBar"
+        android:visibility="gone"/>
+
+</RelativeLayout>
